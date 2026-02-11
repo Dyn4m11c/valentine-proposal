@@ -1,0 +1,47 @@
+body {
+    background-color: #ffeef2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#main-container {
+    text-align: center;
+}
+
+h1 {
+    color: #d11d53;
+}
+
+.button-group {
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#yesBtn {
+    background-color: #4CAF50;
+    color: white;
+    margin-right: 10px;
+}
+
+#noBtn {
+    background-color: #f44336;
+    color: white;
+}
+
+#cat-meme {
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
