@@ -17,8 +17,8 @@ noBtn.addEventListener('mouseover', () => {
 
 // Function for when they finally click 'Yes'
 yesBtn.addEventListener('click', () => {
-    // 1. Change the text
-    question.innerHTML = "❤️وأنا بحبك"; 
+    // 1. Change the text ❤️
+    question.innerHTML = "بتعرفي قديش انت سبشل عندي وقديش بحبك ❤️"; 
     
     // 2. Hide the buttons
     yesBtn.style.display = 'none';
