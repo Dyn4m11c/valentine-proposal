@@ -35,13 +35,14 @@ let hoverCount = 0;
 noBtn.addEventListener('mouseover', () => {
     hoverCount++;
     
-    if(hoverCount === 3) {
+    if(hoverCount === 1) {
         noBtn.innerHTML = "متأكدة؟";
-    } else if(hoverCount === 7) {
+    } else if(hoverCount === 4) {
         noBtn.innerHTML = "Please 🥺";
-    } else if(hoverCount === 10) {
+    } else if(hoverCount === 6) {
         noBtn.innerHTML = "😂خلص تحيون";
     }
     
     // ... rest of the movement code ...
 });
+
