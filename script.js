@@ -35,7 +35,7 @@ let hoverCount = 0;
 noBtn.addEventListener('mouseover', () => {
     hoverCount++;
     
-    if(hoverCount === 5) {
+    if(hoverCount === 3) {
         noBtn.innerHTML = "متأكدة؟";
     } else if(hoverCount === 7) {
         noBtn.innerHTML = "Please 🥺";
